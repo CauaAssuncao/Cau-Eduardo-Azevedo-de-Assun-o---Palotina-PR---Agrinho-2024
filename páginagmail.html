@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Gmail</title>
+    <link rel="stylesheet" href="páginagmail.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <div id="mySidebar" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="https://www.facebook.com/p/Col%C3%A9gio-Estadual-Santo-Agostinho-Palotina-PR-100057418871250/?locale=pt_BR">CESA</a>
+                            <a href="contatos.html">Contatos</a>
+                            <a href="https://www.sistemafaep.org.br/programa-agrinho-tem-nova-categoria-em-2024/">Agrinho 2024</a>
+                            <a href="index.html">PÁGINA PRINCIPAL</a>
+                            <a href="BMudanças Climáticas.html">Mudanças Climáticas</a>
+                            <a href="Bindustria.html">Oportunidades industrias</a>
+                            <a href="BFuturo Tecnológico.html">Futuro Tecnológico</a>
+                            <a href="BFuturas gerações.html">Futuras Gerações</a>
+                            <a href="BAgroParanaense.html">Agro Paranaense</a>
+                    </div>
+                
+                    <div id="main" class="content">
+                        <button class="openbtn" onclick="openNav()">&#9776; </button>
+                    </div>
+                    
+                    <script>
+                    function openNav() {
+                      document.getElementById("mySidebar").style.left = "0";
+                      document.getElementById("main").classList.add('content-open');
+                    }
+                    
+                    function closeNav() {
+                      document.getElementById("mySidebar").style.left = "-250px";
+                      document.getElementById("main").classList.remove('content-open');
+                    }
+                    </script>
+                </li>
+            </ul>
+        </nav> 
+        </script>
+            <header>
+                <div class="image-container">
+                    <img src="img/gmail.jpg" alt="GIF PRINCIPAL">
+                </div>
+                <h1 class="titulo-mexendo">ENVIE UM EMAIL!</h1>
+                <div>
+                    <h1 class="Prefácio">Estou interessado em ouvir o seu feedback! Envie suas impressões sobre o site para o meu Gmail.</h1>
+                </div>
+            </header>
+        <main>
+            <section>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+        
+                    <label for="email">Gmail:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    <footer class="footer">
+        <p>&copy; 2024 Cauã Eduardo Azevedo de Assunção | Colégio Estadual Santo Agostinho. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

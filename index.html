@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho HTML e CSS 2024</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <div id="mySidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="https://www.facebook.com/p/Col%C3%A9gio-Estadual-Santo-Agostinho-Palotina-PR-100057418871250/?locale=pt_BR">CESA</a>
+                        <a href="contatos.html">CONTATOS</a>
+                        <a href="Créditos.html">CRÉDITOS</a>
+                        <a href="https://www.sistemafaep.org.br/programa-agrinho-tem-nova-categoria-em-2024/">Agrinho 2024</a>
+                        <a href="index.html">PÁGINA PRINCIPAL</a>
+                        <a href="BMudanças Climáticas.html">Mudanças Climáticas</a>
+                        <a href="Bindustria.html">Oportunidades industrias</a>
+                        <a href="BFuturo Tecnológico.html">Futuro Tecnológico</a>
+                        <a href="BFuturas gerações.html">Futuras Gerações</a>
+                        <a href="BAgroParanaense.html">Agro Paranaense</a>
+                    </div>
+                
+                    <div id="main" class="content">
+                        <button class="openbtn" onclick="openNav()">&#9776; </button>
+                    </div>
+                    
+                    <script>
+                    function openNav() {
+                      document.getElementById("mySidebar").style.left = "0";
+                      document.getElementById("main").classList.add('content-open');
+                    }
+                    
+                    function closeNav() {
+                      document.getElementById("mySidebar").style.left = "-250px";
+                      document.getElementById("main").classList.remove('content-open');
+                    }
+                    </script>
+                </li>
+                <li class="links">
+                    <a href="https://www.facebook.com/p/Col%C3%A9gio-Estadual-Santo-Agostinho-Palotina-PR-100057418871250/?locale=pt_BR"><h3>CESA</h3></a>
+                    <a href="contatos.html"><h3>CONTATOS</h3></a>
+                    <a href="https://www.sistemafaep.org.br/programa-agrinho-tem-nova-categoria-em-2024/"><h3>AGRINHO 2024</h3></a>
+                    <a href="Créditos.html"><h3>CRÉDITOS</h3></a>
+                </li>
+            </ul>
+        </nav> 
+        <header>
+            <div class="image-container">
+                <img src="img/Slides Ciências.jpg" alt="GIF PRINCIPAL">
+            </div>
+            <h1 class="titulo-mexendo">AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES</h1>
+        </header>
+
+        <section>
+            <div class="faixa-horizontal">
+                <div class="item">
+                    <div class="h1">
+                        <h1>Bem-Vindo!!!</h1>
+                        <h2 class="divtexto">No vasto tecido da vida, onde o campo se encontra com a cidade, surgem histórias de transformação e inovação. Este site celebra e informa a jornada dos indivíduos que trilham caminhos entre esses dois mundos aparentemente distintos, revelando oportunidades únicas ao longo do percurso. Acesse nas página abaixo!</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <main>
+            <section class="centralizado">
+                <div class="botao">
+                    <a href="BAgroParanaense.html">
+                        <img src="img/agro.png" alt="Imagem do Botão">
+                    </a>
+                </div>
+                <div class="botao">
+                    <a href="BFuturo Tecnológico.html">
+                        <img src="img/futuro.png" alt="Imagem do Botão">
+                    </a>
+                </div>
+                <div class="botao">
+                    <a href="Bindustria.html">
+                        <img src="img/industria.jpg" alt="Imagem do Botão">
+                    </a>
+                </div>      
+                <div class="botao">
+                    <a href="BMudanças Climáticas.html">
+                        <img src="img/clima.jpg" alt="Imagem do Botão">
+                    </a>
+                </div>
+                <div class="botao">
+                    <a href="BFuturas gerações.html">
+                        <img src="img/gerações.png" alt="Imagem do Botão">
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="sidebar">
+                    <h2>Minha Coluna Lateral</h2>
+                    <p>Algum texto aqui...</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 Cauã Eduardo Azevedo de Assunção | Colégio Estadual Santo Agostinho. Todos os direitos reservados.</p>
+        </footer>
+        
+</body>
+</html>
